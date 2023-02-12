@@ -1,0 +1,1 @@
+export const SENSOR_READINGS_CHUNK_SIZE = 375;
