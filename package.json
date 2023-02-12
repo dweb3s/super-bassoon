@@ -3,7 +3,7 @@
   "scripts": {
     "docker:up": "docker-compose up -d",
     "docker:down": "docker-compose down",
-    "test": "yarn docker:up && yarn prisma migrate dev && jest sensorReadings.test.ts -i --verbose"
+    "test": "yarn docker:up && yarn prisma migrate dev && jest -i --verbose"
   },
   "devDependencies": {
     "@jest/globals": "^29.4.2",
