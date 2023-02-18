@@ -1,3 +1,9 @@
+## Requirements
+
+- Node ^18.14.1
+- Yarn ^1.22.19
+- Docker Compose ^2.16.0
+
 ## Usage
 
 1. `yarn install`
